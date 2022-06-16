@@ -13,7 +13,7 @@ namespace cidiapi.Controllers
         [Route("api/[controller]/GetName/{name}")]
         public string Get(string name)
         {
-            return name;
+            return name+name;
         }
     }
 }
